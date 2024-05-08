@@ -1,0 +1,50 @@
+
+**********dom ** *********
+
+1)document.quaryselector("h1") => this method is any id,class,tag nodelist access this method
+
+1)document.getElementById("prashu"); => This method use to access id Name
+
+2)document.getElementsByClassName("prashu"); => This method is use to access class name
+
+3)document.getElementsByTagName("span"); This method  is use to access tag name
+
+4)document.getElementsByName("prshu"); => This method is use to access Element Name
+
+5)document.querySelectorAll("button"); => This method is use to Access Multiple buttons
+
+6) day.firstChild
+
+7)day.lastChild
+
+8)day.nextElementSibling
+
+9)day.previousElementSibling
+
+10) day.children
+
+11) createTextNode
+
+12)append()
+
+13)prepend()
+    
+14)appendChild()
+
+15)prependChild()
+
+16)document.body.appendChild() => This Method is use to create Element to show browszer body
+
+17)perentElement
+
+18)ChildElement
+
+19)nextElementSibling
+
+20)previousElementSibling
+
+21)createTextNode;
+
+22)textcontent
+
+23)toggle => this methiod is use to add class

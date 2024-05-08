@@ -1,0 +1,15 @@
+
+
+// type, timestamp,defoultpevent
+//target,toElement,srcElement,currentTarget,
+//clientX,clienty,screenX,screenY,
+//altkey,ctrlKey,shiftKey,kekode
+
+1) stoppropogation()  => The stopPropagation() method of the Event interface prevents further propagation of the current event in the capturing and bubbling phases. It does not, however, prevent any default behaviors from occurring; for instance, clicks on links are still processed. If you want to stop those behaviors, see the preventDefault() method.
+
+2)preventdefoult() => The preventDefault() method of the Event interface tells the user agent that if the event does not get explicitly handled, its default action should not be taken as it normally would be.s
+
+*****Type Event*********
+1) Mouse Event
+2)keybord event
+3)

@@ -1,0 +1,20 @@
+*********** For Each loop *************
+1) This loop not return any values;
+2) for each loop is use to itrable condition
+
+
+
+****************Filter method  *****************************
+1) Fiter method is return  conditional values
+2) Filter method open scop to write return;
+3)
+
+
+***********map *********
+1)map function return new ARRY
+2)map multiple map use in map or Filter
+
+
+*************reduce method**********
+
+2

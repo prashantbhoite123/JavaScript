@@ -1,0 +1,17 @@
+div {
+  height: 200px;
+  width: 200px;
+  background-color: green;
+  color: white;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #424242;
+}
+.hide {
+  background-color: red;
+  color: black;
+  border-radius: 50%;
+}

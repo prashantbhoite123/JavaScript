@@ -1,0 +1,23 @@
+// const user = {
+//   username: "prashant",
+//   price: 9999,
+
+  //   welcomeMessage: function () {
+  //       console.log(`${this.username} , welcome to Youtube`);
+  //       console.log(this);
+};
+// user.welcomeMessage();
+// user.username = "Bhagvat";
+// user.welcomeMessage();
+
+// const chai = () => {
+//   console.log(this);
+// };
+// chai();
+
+((name) => {
+  console.log(`${name} bhoite is the very powerfull person and `);
+})('prashant');
+
+
+

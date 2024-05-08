@@ -1,0 +1,57 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: pink;
+  height: 80vh;
+  width: 60vw;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+input {
+  margin-top: 2vw;
+  font-size: 1.5vw;
+  height: 3vw;
+  width: 25vw;
+}
+
+#submitBtn {
+  background-color: skyblue;
+  border: none;
+
+  margin-top: 2vw;
+  height: 2.5vw;
+  width: 7vw;
+}
+
+#login {
+  background-color: green;
+  border: none;
+
+  margin-top: 2vw;
+  height: 2.5vw;
+  width: 7vw;
+}
+
+#home {
+  display: none;
+}

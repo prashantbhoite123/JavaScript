@@ -1,0 +1,17 @@
+div {
+  height: 200px;
+  width: 200px;
+
+  background-image: linear-gradient(
+    227deg,
+    #c2b1e1 94%,
+    #1e3b2c 70%,
+    #b4b3e1 1%
+  );
+  background-image: linear-gradient(
+    260deg,
+    #f3c1e3 0%,
+    #c3b5e2 16%,
+    #3e5c1f 100%
+  );
+}

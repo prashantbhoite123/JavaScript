@@ -1,0 +1,32 @@
+
+1) promise was object
+
+
+///Promiss =>A Promise is a proxy for a value not necessarily known when the promise is created. It allows you to associate handlers with an asynchronous action's eventual success value or failure reason. This lets asynchronous methods return values like synchronous methods: instead of immediately returning the final value, the asynchronous method returns a promise to supply the value at some point in the future.
+
+
+2)Promiss complete feature 
+
+// then()=>The then() function in JavaScript is used with promises. Promises are a way to handle asynchronous operations in JavaScript. The then() function allows you to specify what to do once a promise is fulfilled (resolved) or rejected.
+
+syntax =>promise.then(onFulfilled, onRejected)
+
+
+// catch =>promise.catch(onRejected)
+
+The catch() function in JavaScript is used with promises to handle any errors that may occur during the asynchronous operation. It's essentially a shorthand for specifying only the rejection handler of a promise.
+
+
+// finllay =>promise.finally(onFinally)
+
+In JavaScript, the finally() function is used with promises to specify a callback that is executed regardless of whether the promise is fulfilled or rejected. It allows you to run cleanup code or perform actions that should be executed after the promise settles, whether it's resolved or rejected.
+
+
+//try method => try method same for resolved
+// catch  => this method use to error handle
+
+
+***************************Fetch in js ******************
+The Fetch API provides a JavaScript interface for accessing and manipulating parts of the protocol, such as requests and responses. It also provides a global fetch() method that provides an easy, logical way to fetch resources asynchronously across the network.
+
+Unlike XMLHttpRequest that is a callback-based API, Fetch is promise-based and provides a better alternative that can be easily used in service workers. Fetch also integrates advanced HTTP concepts such as CORS and other extensions to HTTP.

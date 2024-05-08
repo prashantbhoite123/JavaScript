@@ -1,0 +1,21 @@
+
+
+***************Map***************
+
+
+In JavaScript, the map() method is used to create a new array by applying a function to each element of an existing array. It's a higher-order function that takes a callback function as an argument and applies this function to each element of the array, creating a new array with the results. Here's how you can use the map() method:
+
+
+2) map function return new arry 
+3) map is store unique values
+
+***************for in loop ***********
+
+* for in loop is a intrable for object 
+
+The for...in loop in JavaScript is used to iterate over the enumerable properties of an object. It's commonly used to iterate through the keys (or property names) of an object. Here's how you can use the for...in loop:
+
+***************for of loop ***********
+
+
+The for...of loop in JavaScript is used to iterate over iterable objects, such as arrays, strings, sets, maps, and more. It provides a simple and concise syntax for looping through the values of an iterable. Here's how you can use the for...of loop:

@@ -1,0 +1,16 @@
+
+**************Object **********************
+
+Object.assign ==>  This method concat two Object;
+ ==>syntax const obj3 = Object.assign({},obj1,obj2);
+
+ spraid oprator ==> syntax const obj3 = {...obj1, ...obj2};
+ concat two objects.
+
+ console.log(tanderUser);
+console.log(Object.keys(tanderUser)); ==> This method use to access object keys;
+console.log(Object.values(tanderUser)); ==> This method use to access object values
+console.log(Object.entries(tanderUser)); ==> This method use to access frist key second values;
+
+
+console.log(tanderUser.hasOwnProperty(`id`));==> This method to search any property in object;

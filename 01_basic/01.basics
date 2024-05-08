@@ -1,0 +1,42 @@
+javascript is dynamicaly type language
+
+
+Data type ==>{
+
+    // PRIMITIVE DATATYPE //
+
+1) Number => 2 to power 53;/
+2) Bigint =>
+3) string => " ";
+4) boolean => true/flase;
+5)null => stand aloan value;
+6) symbol => 
+7) 
+
+ // Reference (NON PRIMITIVE) //
+  1)object
+  2)Array
+  3)Functions
+}
+
+***************String*******************
+1) length method ==> this method count string charector
+
+2)toUppercase method ==> this method convert string capital format
+
+3)tolowercase method ==> this method convert string small format
+
+4)charAt method ==> this method check index poition charector
+
+5)indexof method ==> this method check charector which position
+
+6)trim method ==> this method remove whitespaces and charector
+
+7) substring method ==> this method apan jo pan index taku to index chi value deto 
+                         start index and end index
+
+8)slice mrthod ==>  this method same  for substring but slice acceps nagative values
+
+9)replace method ==> this method replace string forex==>console.log(url.replace("%20", "_"));
+
+10)includes method ==> this method check charector

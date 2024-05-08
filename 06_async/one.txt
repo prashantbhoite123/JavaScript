@@ -1,0 +1,19 @@
+
+
+javascript = 1) syncronous => this is one by one exicution
+            
+             
+ 2) Single Threded => one Threded exicution JavaScript is primarily a single-threaded language, meaning it has only one call stack and one memory heap. This single thread executes code sequentially, one piece at a time, from top to bottom, following the event loop model. its slow exicution chock prefomance
+
+ exicution contex => 
+ 1) console.log(1)
+ 1) console.log(2)
+
+ /// blocking code =>
+ 1) Block of the flow of program 
+ 2) reade file sync
+
+
+ /// Non blocking code => 
+ 1)do not block program exicution
+2) file read asyncronous
