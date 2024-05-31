@@ -78,28 +78,28 @@
 //   }, 1000);
 // });
 
-async function consumePromisSix() {
-  try {
-    const newprommisfive = await promissFive;
-    console.log(newprommisfive);
-  } catch (error) {
-    console.log(error);
-  }
-}
+// async function consumePromisSix() {
+//   try {
+//     const newprommisfive = await promissFive;
+//     console.log(newprommisfive);
+//   } catch (error) {
+//     console.log(error);
+//   }
+// }
 
-consumePromisSix();
+// consumePromisSix();
 
-const newPromiss = new Promise(function (resolve, reject) {
-  setTimeout(() => {
-    {
-      resolve("promiss one resolve");
-    }
-  }, 1000);
-});
+// const newPromiss = new Promise(function (resolve, reject) {
+//   setTimeout(() => {
+//     {
+//       resolve("promiss one resolve");
+//     }
+//   }, 1000);
+// });
 
-newPromiss.then(function () {
-  console.log("newPromiss consumee");
-});
+// newPromiss.then(function () {
+//   console.log("newPromiss consumee");
+// });
 
 // const newPromisstwo = new Promise(function (resolve, reject) {
 //   let error = false;
@@ -119,3 +119,17 @@ newPromiss.then(function () {
 //     console.log("Bhushan dada");
 //   });
 
+const promissOne = new Promise((resolve, reject) => {
+  setTimeout(() => {
+    try {
+      console.log("promiss success")
+      resolve("promiss succes")
+    } catch (error) {
+      console.log("Error")
+    }
+  }, 2000)
+})
+
+promissOne.then(() => {
+  console.log("promiss consume")
+})

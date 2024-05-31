@@ -9,5 +9,4 @@ function createUser(username, email, passwod) {
 }
 
 const chai = new createUser("chai", "chai#fb.com", "123");
-
 console.log(chai);

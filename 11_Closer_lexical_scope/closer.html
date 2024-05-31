@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body style="background-color: #313131">
+    <button id="orange">orange</button>
+    <button id="green">green</button>
+    <script>
+      function clickhandlor(color) {
+        return function () {
+          document.body.style.backgroundColor = `${color}`
+        }
+      }
+
+      document.getElementById("orange").onclick = clickhandlor("orange")
+      document.getElementById("green").onclick = clickhandlor("green")
+      
+    </script>
+  </body>
+</html>
