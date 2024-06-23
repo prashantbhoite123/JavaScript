@@ -116,12 +116,12 @@
 
 // console.log(myDate.getTime());
 
-const box = document.querySelector(".box");
-setInterval(function () {
-  const mydate = new Date();
-  console.log(mydate.toLocaleTimeString());
-  console.log(mydate.toDateString());
-  box.innerHTML = `<h2>${mydate.toLocaleTimeString()}</h2>
-    <h3>${mydate.toDateString()}</h3>
-  `;
-}, 1000);
+// const box = document.querySelector(".box");
+// setInterval(function () {
+//   const mydate = new Date();
+//   console.log(mydate.toLocaleTimeString());
+//   console.log(mydate.toDateString());
+//   box.innerHTML = `<h2>${mydate.toLocaleTimeString()}</h2>
+//     <h3>${mydate.toDateString()}</h3>
+//   `;
+// }, 1000);

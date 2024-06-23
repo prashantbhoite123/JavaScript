@@ -2,10 +2,9 @@ const loginForm = document.querySelector("#logForm")
 const loginInputs = document.querySelectorAll(".loginInputs")
 const emailInput = document.querySelector("#emailInput")
 const passInput = document.querySelector("#passInput")
-console.log(loginForm)
-console.log(loginInputs)
 
 let loginFormData = {}
+
 loginInputs.forEach((inp) =>
   inp.addEventListener("change", (e) => {
     loginFormData[e.target.name] = e.target.value
@@ -16,7 +15,7 @@ loginInputs.forEach((inp) =>
 loginForm.addEventListener("submit", async (e) => {
   e.preventDefault()
   const res = await fetch(
-    "https://authentication-jwt-dz86.onrender.com/user/login",
+    "https://authentication-jwt-s0w1.onrender.com/api/user/login",
     {
       method: "POST",
       headers: {
@@ -47,7 +46,7 @@ const logoutBtn = document.querySelector("#logoutButton")
 
 logoutBtn.addEventListener("click", async () => {
   const res = await fetch(
-    "https://authentication-jwt-dz86.onrender.com/user/logout"
+    "https://authentication-jwt-s0w1.onrender.com/api/user/logout"
   )
 
   const data = await res.json()
